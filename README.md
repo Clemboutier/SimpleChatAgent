@@ -1,17 +1,13 @@
-# PocketChatbot
+# SimpleChatAgent
 
-A chatbot built with PocketFlow framework.
-
-## Overview
-
-PocketChatbot is a lightweight chatbot application leveraging the PocketFlow LLM framework.
+A simple chatbot based on graph design with short term memory. 
 
 ## Installation
 
 ```bash
 # Clone the repository
-git clone https://github.com/Clemboutier/PocketChatbot.git
-cd PocketChatbot
+git clone https://github.com/Clemboutier/SimpleChatAgent.git
+cd SimpleChatAgent
 
 # Install dependencies
 pip3 install -r requirements.txt
@@ -21,24 +17,19 @@ pip3 install -r requirements.txt
 
 ```bash
 # Run the basic example
-python3 examples/basic_example.py
+python3 main.py
 ```
 
 ## Project Structure
 
 ```
-PocketChatbot/
+SimpleChatAgent/
 ├── README.md
 ├── requirements.txt
-├── LICENSE
 ├── .gitignore
-├── src/
-│   ├── __init__.py
-│   └── chatbot.py
-├── tests/
-│   └── __init__.py
-└── examples/
-    └── basic_example.py
+└── src/
+    ├── main.py      # Main chatbot flow with PocketFlow
+    └── utils.py     # LLM API call utilities
 ```
 
 ## License
