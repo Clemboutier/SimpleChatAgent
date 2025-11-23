@@ -4,7 +4,7 @@ import os
 
 # Function for Google Gemini LLM call
 #def call_llm(messages):
-#    client = genai.Client(api_key=os.environ.get("GOOGLE_API_KEY", "AIzaSyD6U1UqnTuhjTmJLVUwj-cz3W9K3lYwvtM"))
+#    client = genai.Client(api_key=os.environ.get("GOOGLE_API_KEY", "--"))
 
     # Format messages with role labels for better context
 #    prompt = "\n".join(f"{m['role'].capitalize()}: {m['content']}" for m in messages)
