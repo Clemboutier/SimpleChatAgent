@@ -10,9 +10,9 @@ import os
 #    prompt = "\n".join(f"{m['role'].capitalize()}: {m['content']}" for m in messages)
 
 #    response = client.models.generate_content(
- #       model="gemini-3-pro-preview",
-  #      contents=prompt,
-   # )
+#       model="gemini-3-pro-preview",
+#       contents=prompt,
+#   )
 
 #    return response.text
 
