@@ -18,7 +18,7 @@ import os
 
 # Function for OpenAI LLM call
 def call_llm(messages):
-    client = OpenAI(api_key=os.environ.get("OPENAI_API_KEY", "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"))
+    client = OpenAI(api_key=os.environ.get("OPENAI_API_KEY", "--"))
     
     response = client.chat.completions.create(
         model="gpt-4o-mini",
